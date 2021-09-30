@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CentralDeInformacoes>
+  <livreiro>
+    <nome>Karlos Macêdo</nome>
+    <email>almeidakarlos02@gmail.com</email>
+    <senha>29183,292d0,53gd1,</senha>
+  </livreiro>
+  <usuarios>
+    <Utilitarios.Persistencia.Central__de__informacoes.Usuario.Usuario>
+      <nome>Karlos</nome>
+      <email>almeidakarlos02@gmail.com</email>
+      <senha>29183,292d0,53gd1,</senha>
+      <sexo>Masculino</sexo>
+      <dataDeNascimento>16/09/2001</dataDeNascimento>
+      <genero1>Literatura Brasileira</genero1>
+      <genero2>Infanto Juvenil</genero2>
+      <genero3>Poesia</genero3>
+      <compras/>
+      <colecao/>
+    </Utilitarios.Persistencia.Central__de__informacoes.Usuario.Usuario>
+  </usuarios>
+  <livros/>
+  <loginSingleton>
+    <livreiro>false</livreiro>
+    <emailUsuario reference="../../usuarios/Utilitarios.Persistencia.Central__de__informacoes.Usuario.Usuario"/>
+  </loginSingleton>
+</CentralDeInformacoes>
